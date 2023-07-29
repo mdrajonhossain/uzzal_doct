@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+/*
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+*/
+
+
+.slick-prev, .slick-next {
+ display: none !important;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;        
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+  margin-top: 52px;
+}
+
+
+@media only screen and (max-width: 500px) {
+  
+  .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;        
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+    margin-top: 52px;
+}
+
+
+}
+
+
+
+
+.miantext {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.center {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ 
+
+.mainformse{
+  overflow: visible;
+}
+
+
+
+
+
+/* loader start  */
+.loader div {
+  animation-duration: 0.5s;
+}
+
+.loader div:first-child {
+  animation-delay: 0.1s;
+}
+
+.loader div:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.loader div:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.main_loader{
+  width: 100%;
+  margin: 0 auto;
+  background: #348193b3;;
+  z-index: 100;
+  position: absolute;
+}
+/* loader end  */
+
+
+
+.resul{
+  cursor: pointer;
+}
+
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+
+.showtable{
+ height: 70%; 
+}
+
+.table_photo{
+  width: 50px;
+  height: 50px;
+}
