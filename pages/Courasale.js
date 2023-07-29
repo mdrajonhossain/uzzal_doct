@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 
-export default class Autoplay extends Component {
+export default class Courasale extends Component {
   render() {
     const settings = {
       dots: true,

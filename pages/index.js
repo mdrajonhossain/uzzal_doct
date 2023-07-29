@@ -7,7 +7,7 @@ import Link from 'next/link'
 import React, { useState } from 'react';
 import { GoStack, GoHome } from "react-icons/go";
 import { AiFillBank } from "react-icons/ai";
-import Autoplay from './Autoplay';
+import Courasale from './Courasale';
 import Navber from './Navber';
 import Footer from './Footer';
 
@@ -31,7 +31,7 @@ export default function Home() {
                 <Navber />
 
 
-                <Autoplay />
+                <Courasale />
 
 
 
