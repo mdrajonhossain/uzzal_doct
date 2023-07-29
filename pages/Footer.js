@@ -1,5 +1,5 @@
 "use client";
-
+import Image from 'next/image'
 
 
 
@@ -9,15 +9,8 @@ export default function Footer() {
 
 
 
-
-
     return (
         <>
-
-
-
-
-
             <footer class="w-full bg-blue-800">
                 <div class="mx-auto  ">
                     <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
@@ -48,7 +41,7 @@ export default function Footer() {
                                     <a class="hover:underline">Twitter</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a  class="hover:underline">Facebook</a>
+                                    <a class="hover:underline">Facebook</a>
                                 </li>
                                 <li class="mb-4">
                                     <a class="hover:underline">Contact Us</a>
@@ -59,13 +52,13 @@ export default function Footer() {
                             <h2 class="mb-6 text-sm font-semibold uppercase text-white">Legal</h2>
                             <ul class="text-white font-medium">
                                 <li class="mb-4">
-                                    <a  class="hover:underline">Privacy Policy</a>
+                                    <a class="hover:underline">Privacy Policy</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a  class="hover:underline">Licensing</a>
+                                    <a class="hover:underline">Licensing</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a  class="hover:underline">Terms &amp; Conditions</a>
+                                    <a class="hover:underline">Terms &amp; Conditions</a>
                                 </li>
                             </ul>
                         </div>
