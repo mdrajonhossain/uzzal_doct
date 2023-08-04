@@ -89,7 +89,7 @@ export default function Resultview() {
   return (
     <>
       <Head>
-        <title>Myruralphsysician</title>
+        <title>myruralphysician</title>
       </Head>
 
 
