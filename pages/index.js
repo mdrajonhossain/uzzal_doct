@@ -35,7 +35,7 @@ export default function Home() {
 
 
 
-                    <div className='text-center text-xl pt-10 md:text-2xl' style={{marginBottom:'30px'}}>Why Choose Us ?</div>
+                    <div className='text-center text-xl pt-10 md:text-2xl' style={{marginBottom:'30px'}}>Why Choose Us </div>
                 <div className='container mx-auto w-full pb-10'>
                     <div class="container flex flex-wrap gap-5">
                         <div className='border-4 border-b-yellow-500 rounded-[12px] text-sm md:text-lg bg-gray-100 p-8 mx-auto w-[400px] text-center'>
